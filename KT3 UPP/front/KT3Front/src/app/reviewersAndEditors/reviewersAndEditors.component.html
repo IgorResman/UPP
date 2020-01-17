@@ -1,0 +1,22 @@
+<div id="login-box">
+    <div class="left">
+      <h1>New Magazine</h1>
+  <form #f="ngForm" (ngSubmit)="onSubmit(f.value, f)" ngNativeValidate>
+  
+      <div *ngFor="let field of formFields" class='form'>
+          <label for={{field.id}}>{{field.label}}</label>
+    
+          <input type="text" name={{field.id}} ngModel  *ngIf="field.type.name=='string'" [(ngModel)]="field.value.value">
+          <input type="checkbox" name={{field.id}} ngModel  *ngIf="field.type.name=='boolean'" >
+          <input  type="number" name={{field.id}} ngModel  *ngIf="field.type.name=='long'" [(ngModel)]="field.value.value">
+          <select [(ngModel)]="field.value.value" name="field.id" *ngIf="field.type.name=='enum'">
+            <option name="field.id" *ngFor="let val of enumValues" value={{val}}>
+              {{field.type.values[val]}}
+            </option>
+          </select>
+      </div>
+      
+      <input type="submit">
+    </form>
+  </div>
+  </div>

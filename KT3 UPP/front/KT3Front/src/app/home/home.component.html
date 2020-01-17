@@ -1,0 +1,11 @@
+<div>
+    <h1>Ulogujte se</h1>
+    <form #f="ngForm" (ngSubmit)="onSubmit(f.value, f)">
+        <input type="text" name="username" ngModel Placeholder="Username">
+        <input type="password" name="password" ngModel Placeholder="Password">
+    
+    <input type="submit">
+  </form>
+    <h1>Nemate nalog? Registrujte se ovde!</h1>
+    <h3><a [routerLink]="['registration']">Registruj se</a></h3>
+</div>

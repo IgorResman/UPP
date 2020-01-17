@@ -1,0 +1,6 @@
+INSERT INTO `user` (`id`,`username`,`password`,`country`,`email`,`city`,`hash`,`name`,`lastname`,`tittle`,`role`) VALUES (1,'admin','admin', 'srbija','igor.resman@gmail.com','novi sad','','admin','admin','','admin');
+INSERT INTO `user` (`id`,`username`,`password`,`country`,`email`,`city`,`hash`,`name`,`lastname`,`tittle`,`role`) VALUES (2,'editor','editor', 'srbija','igor.resman@gmail.com','novi sad','','editor','editor','','editor');
+INSERT INTO `user` (`id`,`username`,`password`,`country`,`email`,`city`,`hash`,`name`,`lastname`,`tittle`,`role`) VALUES (3,'editor1','editor1', 'srbija','igor.resman@gmail.com','novi sad','','editor1','editor1','','editor');
+INSERT INTO `user` (`id`,`username`,`password`,`country`,`email`,`city`,`hash`,`name`,`lastname`,`tittle`,`role`) VALUES (4,'editor2','editor2', 'srbija','igor.resman@gmail.com','novi sad','','editor2','editor2','','editor');
+INSERT INTO `user` (`id`,`username`,`password`,`country`,`email`,`city`,`hash`,`name`,`lastname`,`tittle`,`role`) VALUES (5,'resident','resident', 'srbija','igor.resman@gmail.com','novi sad','','resident','resident','','resident');
+INSERT INTO `user` (`id`,`username`,`password`,`country`,`email`,`city`,`hash`,`name`,`lastname`,`tittle`,`role`) VALUES (6,'resident1','resident1', 'srbija','igor.resman@gmail.com','novi sad','','resident1','resident1','','resident');
